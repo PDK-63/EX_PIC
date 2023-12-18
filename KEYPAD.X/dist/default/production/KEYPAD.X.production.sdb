@@ -1,0 +1,99 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"39 C:\Users\Khanh\Desktop\Example_Pic\KEYPAD.X\main.c
+[v _LCD_Cmd LCD_Cmd `(v  1 e 1 0 ]
+"54
+[v _LCD_Data LCD_Data `(v  1 e 1 0 ]
+"69
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"77
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+"84
+[v _Keypad Keypad `(v  1 e 1 0 ]
+"156
+[v _main main `(v  1 e 1 0 ]
+"216 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S23 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"233
+[u S32 . 1 `S23 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES32  1 e 1 @6 ]
+[s S50 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"295
+[u S59 . 1 `S50 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES59  1 e 1 @7 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"156 C:\Users\Khanh\Desktop\Example_Pic\KEYPAD.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"168
+} 0
+"77
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+{
+[v LCD_String@str str `*.24uc  1 a 1 wreg ]
+"78
+[v LCD_String@i i `uc  1 a 1 5 ]
+"77
+[v LCD_String@str str `*.24uc  1 a 1 wreg ]
+[v LCD_String@num num `uc  1 p 1 3 ]
+"79
+[v LCD_String@str str `*.24uc  1 a 1 4 ]
+"82
+} 0
+"69
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"75
+} 0
+"39
+[v _LCD_Cmd LCD_Cmd `(v  1 e 1 0 ]
+{
+[v LCD_Cmd@data data `uc  1 a 1 wreg ]
+[v LCD_Cmd@data data `uc  1 a 1 wreg ]
+[v LCD_Cmd@data data `uc  1 a 1 2 ]
+"52
+} 0
+"84
+[v _Keypad Keypad `(v  1 e 1 0 ]
+{
+"155
+} 0
+"54
+[v _LCD_Data LCD_Data `(v  1 e 1 0 ]
+{
+[v LCD_Data@data data `uc  1 a 1 wreg ]
+[v LCD_Data@data data `uc  1 a 1 wreg ]
+[v LCD_Data@data data `uc  1 a 1 2 ]
+"67
+} 0

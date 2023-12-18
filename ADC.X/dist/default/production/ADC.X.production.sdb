@@ -1,0 +1,94 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"28 C:\Users\Khanh\Desktop\Example_Pic\ADC.X\main.c
+[v _LCD_Cmd LCD_Cmd `(v  1 e 1 0 ]
+"43
+[v _LCD_Data LCD_Data `(v  1 e 1 0 ]
+"58
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"73
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+"78
+[v _ADC_Read ADC_Read `(i  1 e 2 0 ]
+"87
+[v _main main `(v  1 e 1 0 ]
+"216 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S23 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"233
+[u S32 . 1 `S23 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES32  1 e 1 @6 ]
+"278
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1159
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2582
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @250 ]
+"2921
+[v _TRISA0 TRISA0 `VEb  1 e 0 @1064 ]
+"87 C:\Users\Khanh\Desktop\Example_Pic\ADC.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"94
+[v main@ADC ADC `ui  1 a 2 5 ]
+"102
+} 0
+"58
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"64
+} 0
+"28
+[v _LCD_Cmd LCD_Cmd `(v  1 e 1 0 ]
+{
+[v LCD_Cmd@data data `uc  1 a 1 wreg ]
+[v LCD_Cmd@data data `uc  1 a 1 wreg ]
+[v LCD_Cmd@data data `uc  1 a 1 2 ]
+"41
+} 0
+"78
+[v _ADC_Read ADC_Read `(i  1 e 2 0 ]
+{
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+[v ADC_Read@channel channel `uc  1 a 1 4 ]
+"85
+} 0
+"73
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+{
+"76
+} 0
